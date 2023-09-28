@@ -1,5 +1,9 @@
 <!styles for tables>
   <styles>
+      body{
+        background-color: grey;
+      }
+      
       table{
         font-family: arial, sans-serif;
         border-collapse: collapse;
