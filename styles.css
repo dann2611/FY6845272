@@ -1,4 +1,3 @@
-
 body{
   background-color: grey;
 }
@@ -21,7 +20,7 @@ tr:nth-child(even){
   background-color: #5g68ga;
 }
 
-p.ex1{
+p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/ 
 margin-left: 2px;
 }
 
@@ -33,3 +32,4 @@ h1 {
   color: navy;
   margin-left: 15%;
 }
+
