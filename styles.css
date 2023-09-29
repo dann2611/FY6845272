@@ -20,11 +20,15 @@ td, th{
 tr:nth-child(even){
   background-color: #5g68ga;
 }
-
+ee
 p.ex1{
 margin-left: 2px;
 }
 
 head{
   margin-left: 100px;
+}
+
+h1 {
+  color: navy;
 }
