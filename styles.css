@@ -24,3 +24,7 @@ tr:nth-child(even){
 p.ex1{
 margin-left: 2px;
 }
+
+head{
+  margin: 10px;
+}
