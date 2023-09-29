@@ -3,9 +3,9 @@ body{
 }
 
 img{
-  display: flex
-  align: center
-  margin: auto
+  display: flex;
+  align: center;
+  margin: auto;
 }
 
 table{
