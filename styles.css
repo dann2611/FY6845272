@@ -1,29 +1,26 @@
-<!styles for tables>
-  <styles>
-      body{
-        background-color: grey;
-      }
-      
-      table{
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 30%;
-  
-      }
-  
-      td, th{
-        border: 1px solid #5g68ga;
-        text-align: left;
-        padding: 8px;
-    
-      }
-    
-      tr:nth-child(even){
-        background-color: #5g68ga;
-      }
-  </styles>
-<styles>
-p.ex1{
-  margin-left: 2px;
+
+body{
+  background-color: grey;
 }
-</styles>
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+
+}
+
+td, th{
+  border: 1px solid #5g68ga;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even){
+  background-color: #5g68ga;
+}
+
+p.ex1{
+margin-left: 2px;
+}
