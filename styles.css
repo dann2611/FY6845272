@@ -29,10 +29,11 @@ tr:nth-child(even){
 
 p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/ 
   width: 500px;
-  padding:25px;
+  padding:5px;
   margin: auto;
   display: flex;
   font-family: arial, sans-serif;
+  border: 2px solid red; 
 }
 
 head{
