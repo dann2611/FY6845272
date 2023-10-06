@@ -27,13 +27,9 @@ tr:nth-child(even){
   background-color: #5g68ga;
 }
 
-.p-div{
+p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/ 
   width: 500px;
   padding:25px;
-}
-
-
-p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/ 
   margin: auto;
   display: flex;
   font-family: arial, sans-serif;
