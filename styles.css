@@ -29,7 +29,6 @@ tr:nth-child(even){
 
 p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/ 
 margin-left: 250px;
-margin-right: 250px;
 font-family: arial, sans-serif;
 }
 
