@@ -34,7 +34,6 @@ p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/
   display: flex;
   font-family: arial, sans-serif;
   border: 0px solid red;
-  text-decoration: underline;
 }
 
 head{
@@ -50,6 +49,7 @@ h3{
   margin-left: 160px;
   display: flex;
   padding: 10px;
+  text-decoration: underline;
 }
 
 .mySlides{
