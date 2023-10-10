@@ -33,7 +33,8 @@ p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/
   margin: auto;
   display: flex;
   font-family: arial, sans-serif;
-  border: 0px solid red; 
+  border: 0px solid red;
+  text-decoration: underline;
 }
 
 head{
