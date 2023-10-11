@@ -26,7 +26,6 @@ td, th{
 
 tr:nth-child(even){
   background-color: #5g68ga;
-  margin-left: 160px;
 }
 
 p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/ 
