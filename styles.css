@@ -21,7 +21,7 @@ ul {
 
 li{
     margin: auto;
-    padding: 4vh 20px;
+    padding: 4vh 20px;    /*figure out how to lock height of the boxes, when the text goes on two lines */
 }
 
   li a {
