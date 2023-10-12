@@ -20,13 +20,13 @@ ul {
   }
 
 li{
-  margin: auto;
+    margin: auto;
+    padding: 4vh 20px;
 }
 
   li a {
     display: flex;
     color: #000;
-    padding: 4vh 20px;
     margin: auto;
     text-decoration: none;
     color: rgb(216, 216, 216);
