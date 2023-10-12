@@ -28,6 +28,7 @@ li{
     display: flex;
     color: #000;
     margin: auto;
+    padding: 4vh 20px;
     text-decoration: none;
     color: rgb(216, 216, 216);
     border: 0px solid red;
