@@ -20,18 +20,17 @@ ul {
   }
 
 li{
-    margin: auto;
-    padding: 4vh 20px;    /*figure out how to lock height of the boxes, when the text goes on two lines */
+  margin: auto;
 }
 
   li a {
     display: flex;
-    color: #000;
-    margin: auto;
-    padding: 4vh 20px;
+    padding: 4vh 0;
+    margin: 0;
     text-decoration: none;
     color: rgb(216, 216, 216);
-    border: 0px solid red;
+    border: 1px solid red;
+    min-width: 10vw;
     width: auto;
   }
   
