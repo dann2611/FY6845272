@@ -21,77 +21,86 @@ ul {
 
 li{
   margin: auto;
-}
+  }  
 
-  li a {
-    display: flex;
-    padding: 4vh 0;
-    margin: 0;
-    text-decoration: none;
-    color: rgb(216, 216, 216);
-    border: 1px solid red;
-    min-width: 10vw;
-    width: auto;
+li a {
+display: flex;
+justify-content: center;
+margin: auto;
+text-align: center;
+align-items: center;
+text-decoration: none;
+color: rgb(216, 216, 216);
+border: 0px solid red;
+width: 15vw;
+height: 90px;
+min-width: 20vw;
   }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #555;
-    color: white;
+
+/* Change the link color on hover */
+li a:hover {
+background-color: #555;
+color: white;
   }
 
 
 
 body{
-    background-color: #14B393;
-    margin-left: 50px;
-    margin-right: 50px;
+background-color: #14B393;
+margin-left: 50px;
+margin-right: 50px;
   }
   
-  img{
-    display: flex;
-    align: center;
-    margin: auto;
-    width: 80vw;
-    height: auto;
+img{
+display: flex;
+align: center;
+margin: auto;
+width: 80vw;
+height: auto;
+margin-top: 10vh;
   }
-  
-  table{
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 300px
+
+table{
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 300px
   }
-  
-  td, th{
-    padding: 8px;
-    border: 1px solid black;
+
+td, th{
+padding: 8px;
+border: 1px solid black;
   }
-  
-  tr:nth-child(even){
-    background-color: "#5g68ga";
+
+tr:nth-child(even){
+background-color: "#5g68ga";
   }
-  
-  p.ex1{                /*this is for a specific paragraph with the tag "ex1"*/ 
-    width: 85%;
-    padding:20px;
-    margin: auto;
-    display: flex;
-    font-family: arial, sans-serif;
-    border: 0px solid red;
+
+p.ex1{     /*this is for a specific paragraph with the tag "ex1"*/ 
+width: 85%;
+padding:0px;
+margin: auto;
+display: flex;
+font-family: arial, sans-serif;
+border: 0px solid red;
   }
-  
-  head{
-    margin: 10%;
+
+head{
+margin: 10%;
   }
-  
-  h1 {
-    color: navy;
+
+h1 {
+color: navy;
   }
-  
-  h3{
-    text-decoration: underline;
+
+h3{
+text-decoration: underline;
   }
-  
-  .mySlides{
-    display: none;
+
+.mySlides{
+display: none;
   }
+
+.section {
+padding-top: 60px; 
+  }
+
