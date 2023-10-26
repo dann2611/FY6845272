@@ -1,28 +1,28 @@
 .navbar{
-    list-style-type: none;
-    margin: auto;
-    margin-top: -10px;
-    padding: 0;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    animation: fadeNavbar 1s;
+  list-style-type: none;
+  margin: auto;
+  margin-top: -10px;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  animation: fadeNavbar 1s;
 }
 
 ul {
-    list-style-type: none;
-    height: 10vh;
-    margin: auto;
-    padding: 0;
-    display: flex;
-    width: 100%;
-    background-color: #083b31;
-    position: fixed;
-  }
+  list-style-type: none;
+  height: 10vh;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  background-color: #083b31;
+  position: fixed;
+}
 
 li{
-  margin: auto;
-  }  
+margin: auto;
+}  
 
 li a {
 display: flex;
@@ -36,27 +36,27 @@ border: 0px solid red;
 width: 15vw;
 height: 90px;
 min-width: 20vw;
-  }
+}
 
 /* Change the link color on hover */
 li a:hover {
 background-color: #555;
 color: white;
-  }
+}
 
 
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 
 
 body{
-    background-color: #14B393;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  
+  background-color: #14B393;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 img{
 display: flex;
 align: center;
@@ -64,22 +64,22 @@ margin: auto;
 width: 80vw;
 height: auto;
 margin-top: 10vh;
-  }
+}
 
 table{
 font-family: arial, sans-serif;
 border-collapse: collapse;
 width: 300px
-  }
+}
 
 td, th{
 padding: 8px;
 border: 1px solid black;
-  }
+}
 
 tr:nth-child(even){
 background-color: "#5g68ga";
-  }
+}
 
 p.ex1{     /*this is for a specific paragraph with the tag "ex1"*/ 
 width: 85%;
@@ -88,52 +88,55 @@ margin: auto;
 display: flex;
 font-family: arial, sans-serif;
 border: 0px solid red;
-  }
+}
 
 head{
 margin: 10%;
-  }
+}
 
 h1 {
 color: rgb(0, 0, 97);
-  }
+}
 
 h3{
 text-decoration: underline;
 }
 
 hr.default{
-    border: 2px solid black;
-    border-radius: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .mySlides{
 display: none;
-  }
+}
 
 .section {
 padding-top: 75px; 
-  }
+}
 
 .fade-image{
-    animation: fadeImage 2s;
+  animation: fadeImage 2s;
 }
 
 .fade-text{
-    animation: fadeText 4s;
+  animation: fadeText 3s;
+  margin-left: 50px; 
+  margin-right: 50px;
 }
 
 @keyframes fadeImage {
-    0% {opacity: 0; margin-left: 100px}
-    100% {opacity: 1; margin-left: 0px}
+  0% {opacity: 0; margin-left: 100px}
+  100% {opacity: 1; margin-left: 0px}
 }
 
 @keyframes fadeText {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  0% {opacity: 0; margin-left: 100px; margin-right: 0px;}
+  30% {opacity: 0; margin-left: 100px; margin-right: 0px;}
+  100% {opacity: 1; margin-left: 50px; margin-right: 50px;}
 }
 
 @keyframes fadeNavbar {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
