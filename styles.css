@@ -116,11 +116,11 @@ padding-top: 75px;
 }
 
 .fade-image{
-  animation: fadeImage 2s;
+  animation: fadeImage 3s;
 }
 
 .fade-text{
-  animation: fadeText 3s;
+  animation: fadeText 4s;
   margin-left: 50px; 
   margin-right: 50px;
 }
@@ -132,11 +132,13 @@ padding-top: 75px;
 
 @keyframes fadeText {
   0% {opacity: 0; margin-left: 100px; margin-right: 0px;}
-  30% {opacity: 0; margin-left: 100px; margin-right: 0px;}
+  50% {opacity: 0; margin-left: 100px; margin-right: 0px;}
+  70% {opacity: 0; margin-left: 100px; margin-right: 0px;}
   100% {opacity: 1; margin-left: 50px; margin-right: 50px;}
 }
 
 @keyframes fadeNavbar {
   0% {opacity: 0;}
+  50% {opacity: 0;}
   100% {opacity: 1;}
 }
