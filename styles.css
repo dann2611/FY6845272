@@ -1,143 +1,167 @@
 .navbar{
-  list-style-type: none;
+    list-style-type: none;
+    margin: auto;
+    margin-top: -10px;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    /*animation: fadeNavbar 1s; */
+  }
+  
+  ul {
+    list-style-type: none;
+    height: 10vh;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    background-color: #083b31;
+    position: fixed;
+  }
+  
+  li{
   margin: auto;
-  margin-top: -10px;
-  padding: 0;
-  display:flex;
-  justify-content: center;
-  align-content: center;
-  animation: fadeNavbar 1s;
-}
-
-ul {
-  list-style-type: none;
-  height: 10vh;
-  margin: auto;
-  padding: 0;
+  }  
+  
+  li a {
   display: flex;
-  width: 100%;
-  background-color: #083b31;
-  position: fixed;
-}
-
-li{
-margin: auto;
-}  
-
-li a {
-display: flex;
-justify-content: center;
-margin: auto;
-text-align: center;
-align-items: center;
-text-decoration: none;
-color: rgb(216, 216, 216);
-border: 0px solid red;
-width: 15vw;
-height: 90px;
-min-width: 20vw;
-}
-
-/* Change the link color on hover */
-li a:hover {
-background-color: #555;
-color: white;
-}
-
-
-html{
-  scroll-behavior: smooth;
-}
-
-
-
-body{
-  background-color: #14B393;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-img{
-display: flex;
-align: center;
-margin: auto;
-width: 80vw;
-height: auto;
-margin-top: 10vh;
-}
-
-table{
-font-family: arial, sans-serif;
-border-collapse: collapse;
-width: 300px
-}
-
-td, th{
-padding: 8px;
-border: 1px solid black;
-}
-
-tr:nth-child(even){
-background-color: "#5g68ga";
-}
-
-p.ex1{     /*this is for a specific paragraph with the tag "ex1"*/ 
-width: 85%;
-padding:0px;
-margin: auto;
-display: flex;
-font-family: arial, sans-serif;
-border: 0px solid red;
-}
-
-head{
-margin: 10%;
-}
-
-h1 {
-color: rgb(0, 0, 97);
-}
-
-h3{
-text-decoration: underline;
-}
-
-hr.default{
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+  height: 90px;
+  min-width: 25vw;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+  background-color: #555;
+  color: white;
+  }
+  
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    background-color: #e4e4e4;
+    margin-left: 10%;
+    margin-right: 10%;
+    -webkit-text-size-adjust: none;
+  }
+  
+  img{
+  display: flex;
+  align: center;
+  margin: auto;
+  width: 75vw;
+  height: auto;
+  margin-top: 10vh;
+  padding: 0vw 5vw 0vw 5vw;
+  }
+  
+  table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 300px
+  }
+  
+  td, th{
+  padding: 8px;
   border: 1px solid black;
-  border-radius: 10px;
-}
+  }
+  
+  tr:nth-child(even){
+  background-color: "#5g68ga";
+  }
+  
+  p.ex1{     /*this is for a specific paragraph with the tag "ex1"*/ 
+  width: 85%;
+  padding:0px;
+  margin: auto;
+  display: flex;
+  font-family: arial, sans-serif;
+  }
+  
+  head{
+  margin: 10%;
+  }
+  
+  h1 {
+  color: rgb(0, 0, 97);
+  }
 
-.mySlides{
-display: none;
-}
+  h2{
 
-.section {
-padding-top: 75px; 
-}
+  }
+  
+  h3{
+  text-decoration: underline;
+  }
 
-.fade-image{
-  animation: fadeImage 3s;
-}
+  iframe{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50vw;
+    height: 30vw;
+  }
+  
+  hr.default{
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .mySlides{
+  display: none;
+  }
+  
+  .section {
+  padding-top: 0px; 
+  }
+  
+  .fade-image{
+    animation: fadeImage 3s;
+    background-color: white;
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
+  
+  .fade-text{
+    animation: fadeText 3s;
+    margin-left: 10%; 
+    margin-right: 10%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  }
 
-.fade-text{
-  animation: fadeText 4s;
-  margin-left: 50px; 
-  margin-right: 50px;
-}
-
-@keyframes fadeImage {
-  0% {opacity: 0; margin-left: 100px}
-  100% {opacity: 1; margin-left: 0px}
-}
-
-@keyframes fadeText {
-  0% {opacity: 0; margin-left: 100px; margin-right: 0px;}
-  70% {opacity: 0; margin-left: 100px; margin-right: 0px;}
-  100% {opacity: 1; margin-left: 50px; margin-right: 50px;}
-}
-
-@keyframes fadeNavbar {
-  0% {opacity: 0;}
-  50% {opacity: 0;}
-  100% {opacity: 1;}
-}
+  .split-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  
+  @keyframes fadeImage {
+    0% {opacity: 0; background-color: #e4e4e4; margin-left: 20%; margin-right: 0%;}
+    50% {background-color: #e4e4e4;}
+    100% {opacity: 1; background-color: white; margin-left: 10%; margin-right: 10%;}
+  }
+  
+  @keyframes fadeText {
+    0% {opacity: 0; margin-left: 20%; margin-right: 0%;}
+    50% {opacity: 0; margin-left: 20%; margin-right: 0%;}
+    100% {opacity: 1; margin-left: 10%; margin-right: 10%;}
+  }
+  
+  @keyframes fadeNavbar {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+  }
