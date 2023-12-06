@@ -65,14 +65,16 @@
   }
   
   table{
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 300px
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+    border: 0px solid black;
   }
   
   td, th{
   padding: 8px;
-  border: 1px solid black;
+  border: 0px solid black;
+  text-align: center;
   }
   
   tr:nth-child(even){
@@ -110,6 +112,7 @@
     display: flex;
     width: 50vw;
     height: 30vw;
+    padding: 30px;
   }
   
   hr.default{
@@ -136,9 +139,10 @@
     animation: fadeText 3s;
     margin-left: 10%; 
     margin-right: 10%;
-    padding: 10px;
+    padding: 10px 150px 10px 150px;
     background-color: white;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+
   }
 
   .split-info{
